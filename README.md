@@ -1,5 +1,5 @@
 # MQQTT Gateway Streams: Client
-A Client MQQT Stream library for handling streams from the various MQQT Gateway connections
+A Client MQTT Stream library for handling streams from the various MQQT Gateway connections
 
 MQTT.js is a client library for the [MQTT](http://mqtt.org/) protocol, written
 in JavaScript for node.js and the browser.
@@ -846,39 +846,5 @@ const mqtt = require("mqtt");
 const client = mqtt.connect("alis://test.mosquitto.org");
 ```
 
-<a name="contributing"></a>
 
-## Contributing
 
-MQTT.js is an **OPEN Open Source Project**. This means that:
-
-> Individuals making significant and valuable contributions are given commit-access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
-
-See the [CONTRIBUTING.md](https://github.com/mqttjs/MQTT.js/blob/master/CONTRIBUTING.md) file for more details.
-
-### Contributors
-
-MQTT.js is only possible due to the excellent work of the following contributors:
-
-| Name               | GitHub                                             | Twitter                                                    |
-| ------------------ | -------------------------------------------------- | ---------------------------------------------------------- |
-| Adam Rudd          | [GitHub/adamvr](https://github.com/adamvr)         | [Twitter/@adam_vr](http://twitter.com/adam_vr)             |
-| Matteo Collina     | [GitHub/mcollina](https://github.com/mcollina)     | [Twitter/@matteocollina](http://twitter.com/matteocollina) |
-| Maxime Agor        | [GitHub/4rzael](https://github.com/4rzael)         | [Twitter/@4rzael](http://twitter.com/4rzael)               |
-| Siarhei Buntsevich | [GitHub/scarry1992](https://github.com/scarry1992) |                                                            |
-| Daniel Lando    | [GitHub/robertsLando](https://github.com/robertsLando) |                                                           |
-
-<a name="sponsor"></a>
-
-## Sponsor
-
-If you would like to support MQTT.js, please consider sponsoring the author and active maintainers:
-
-- [Matteo Collina](https://github.com/sponsors/mcollina): author of MQTT.js
-- [Daniel Lando](https://github.com/sponsors/robertsLando): active maintainer
-
-<a name="license"></a>
-
-## License
-
-MIT
