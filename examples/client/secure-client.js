@@ -15,6 +15,10 @@ const options = {
   rejectUnauthorized: false
 }
 
+const keyOptions = {
+  keySign: ''
+}
+
 const client = mqtt.connect(options)
 
 client.subscribe('messages')
