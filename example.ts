@@ -5,7 +5,7 @@ const client = mqtt.connect('mqtt://test.mosquitto.org', {
 	reconnectPeriod: 15000,
 })
 
-const testTopic = 'presence'
+const testTopic = 'presencepoint'
 
 function publish() {
 	client.publish(
